@@ -9,7 +9,7 @@ header .wrap{display:flex;align-items:center;gap:20px;height:56px}
 .logo{font-weight:700;font-size:18px;color:var(--fg);display:flex;align-items:center;gap:8px}
 .logo i{display:inline-block;width:22px;height:22px;border-radius:6px;background:linear-gradient(135deg,#0a66ff 50%,#6b5cff 50%)}
 nav{display:flex;gap:18px;margin-left:auto;font-size:14px}nav a{color:var(--mut)}
-.hero{text-align:center;padding:88px 0 56px}
+.hero{text-align:center;padding:88px 24px 56px}
 .hero h1{font-size:clamp(34px,6vw,56px);line-height:1.1;margin:0 0 16px;letter-spacing:-.02em}
 .hero p{font-size:20px;color:var(--mut);max-width:640px;margin:0 auto 32px}
 .btns{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
@@ -17,7 +17,7 @@ nav{display:flex;gap:18px;margin-left:auto;font-size:14px}nav a{color:var(--mut)
 .btn.ghost{background:transparent;color:var(--acc);border:1px solid var(--acc)}.btn:hover{text-decoration:none;opacity:.9}
 .note{font-size:13px;color:var(--mut);margin-top:12px}
 .diagram{display:block;width:100%;margin:48px auto 0;max-width:620px}
-@media (max-width:720px){nav a:not([hreflang]){display:none}.hero{padding:56px 0 40px}.hero p{font-size:17px}}
+@media (max-width:720px){nav a:not([hreflang]){display:none}.hero{padding:56px 24px 40px}.hero p{font-size:17px}}
 body{overflow-x:hidden}
 section{padding:64px 0;border-top:1px solid var(--line)}
 h2{font-size:32px;margin:0 0 8px;letter-spacing:-.01em}.lead{color:var(--mut);margin:0 0 32px}
