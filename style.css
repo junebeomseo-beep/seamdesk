@@ -16,7 +16,9 @@ nav{display:flex;gap:18px;margin-left:auto;font-size:14px}nav a{color:var(--mut)
 .btn{display:inline-block;padding:12px 22px;border-radius:12px;background:var(--acc);color:#fff;font-weight:600}
 .btn.ghost{background:transparent;color:var(--acc);border:1px solid var(--acc)}.btn:hover{text-decoration:none;opacity:.9}
 .note{font-size:13px;color:var(--mut);margin-top:12px}
-.diagram{margin:48px auto 0;max-width:620px}
+.diagram{display:block;width:100%;margin:48px auto 0;max-width:620px}
+@media (max-width:720px){nav a:not([hreflang]){display:none}.hero{padding:56px 0 40px}.hero p{font-size:17px}}
+body{overflow-x:hidden}
 section{padding:64px 0;border-top:1px solid var(--line)}
 h2{font-size:32px;margin:0 0 8px;letter-spacing:-.01em}.lead{color:var(--mut);margin:0 0 32px}
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
